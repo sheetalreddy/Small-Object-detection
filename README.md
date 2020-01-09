@@ -1,10 +1,14 @@
 # Improved SSD for small object detection: Context Single Shot MultiBox Detector
 
 
-Original Network :
+Original Network
+
+
 ![Repo_List](network/org.png)
 
-Context SSD:
+Context SSD
+
+
 ![Repo_List](network/context.png)
 
 
