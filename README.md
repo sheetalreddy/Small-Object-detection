@@ -1,4 +1,4 @@
-# SSD: Single Shot MultiBox Detector
+# Improved SSD for small object detection: Context Single Shot MultiBox Detector
 
 [![Build Status](https://travis-ci.org/weiliu89/caffe.svg?branch=ssd)](https://travis-ci.org/weiliu89/caffe)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
