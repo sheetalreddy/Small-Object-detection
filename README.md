@@ -3,41 +3,11 @@
 
 Original Network :
 ![Repo_List](network/org.png)
+
+Context SSD:
 ![Repo_List](network/context.png)
 
 
-Context SSD:
-
-SSD is an unified framework for object detection with a single network. You can use the code to train/evaluate a network for object detection task. For more details, please refer to our [arXiv paper](http://arxiv.org/abs/1512.02325) and our [slide](http://www.cs.unc.edu/~wliu/papers/ssd_eccv2016_slide.pdf).
-
-<p align="center">
-<img src="http://www.cs.unc.edu/~wliu/papers/ssd.png" alt="SSD Framework" width="600px">
-</p>
-
-| System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
-|:-------|:-----:|:-------:|:-------:|:-------:|
-| [Faster R-CNN (VGG16)](https://github.com/ShaoqingRen/faster_rcnn) | 73.2 | 7 | ~6000 | ~1000 x 600 |
-| [YOLO (customized)](http://pjreddie.com/darknet/yolo/) | 63.4 | 45 | 98 | 448 x 448 |
-| SSD300* (VGG16) | 77.2 | 46 | 8732 | 300 x 300 |
-| SSD512* (VGG16) | **79.8** | 19 | 24564 | 512 x 512 |
-
-
-<p align="left">
-<img src="http://www.cs.unc.edu/~wliu/papers/ssd_results.png" alt="SSD results on multiple datasets" width="800px">
-</p>
-
-_Note: SSD300* and SSD512* are the latest models. Current code should reproduce these results._
-
-### Citing SSD
-
-Please cite SSD in your publications if it helps your research:
-
-    @inproceedings{liu2016ssd,
-      title = {{SSD}: Single Shot MultiBox Detector},
-      author = {Liu, Wei and Anguelov, Dragomir and Erhan, Dumitru and Szegedy, Christian and Reed, Scott and Fu, Cheng-Yang and Berg, Alexander C.},
-      booktitle = {ECCV},
-      year = {2016}
-    }
 
 ### Contents
 1. [Installation](#installation)
